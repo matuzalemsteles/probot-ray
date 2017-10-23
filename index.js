@@ -27,7 +27,7 @@ function closed(context) {
   return hasKeywordsInPr(context, (issue) => {
       const progress = context.issue({
         number: issue,
-        labels: ["in-progress"]
+        name: "in-progress"
       });
 
       const done = context.issue({
@@ -55,7 +55,7 @@ function reopened(context) {
 
       const done = context.issue({
         number: issue,
-        labels: ["done"]
+        name: "done"
       });
 
       const comment = context.issue({
