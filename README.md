@@ -6,7 +6,11 @@
 
 When you use [github keywords](https://help.github.com/articles/closing-issues-using-keywords/) like `fixes`,` resolves`, `closes` and other variants in a PR, the bot automatically adds `in-progress` label to issues referenced in the PR.
 
+<img width="787" alt="screen shot 2017-10-22 at 21 58 54" src="https://user-images.githubusercontent.com/13750819/31868843-bd61ad0a-b779-11e7-8eea-83997e1abeee.png">
+
 This probot still adds the label `done` when the PR is closed and a thank you message.
+
+<img width="790" src="https://user-images.githubusercontent.com/13750819/31868817-84c1310a-b779-11e7-9e75-41a1407a499c.png">
 
 ## Setup
 
