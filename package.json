@@ -1,0 +1,27 @@
+{
+  "name": "ray-bot",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Matuzalém Teles <matuzalem.teles@liferay.com>",
+  "license": "ISC",
+  "repository": "https://github.com/matuzalemsteles/ray-bot.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "probot": "^0.7.2"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "jest": "^21.2.1",
+    "localtunnel": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "prettier": "^1.7.4"
+  },
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  }
+}
